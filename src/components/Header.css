@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	margin: 10px;
+}
+
+.navList {
+	list-style-type: none;
+	display: flex;
+	gap: 10px;
+}
+
+.navLink a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.navLink .active {
+	text-decoration: underline;
+}
+
+.navLink:hover {
+	text-decoration: underline;
+}
+
+hr {
+	margin: 10px;
+}

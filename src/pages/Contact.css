@@ -1,0 +1,60 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	margin-left: 10px;
+}
+
+.contact-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.form-container {
+	width: 50%;
+	max-width: 600px;
+	background-color: rgb(233, 231, 231);
+	padding: 50px;
+	border-radius: 8px;
+}
+
+.form {
+	justify-content: center;
+}
+
+.form-group {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 7px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 5px;
+	background-color: rgb(174, 173, 173);
+}
+
+button {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+button:hover {
+	background-color: rgb(64, 148, 222);
+}
+
+.error {
+	color: red;
+	font-size: 0.9em;
+}
